@@ -1,0 +1,29 @@
+{
+  "name": "crccontracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ByteBuildersLabs/CRCcontracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ByteBuildersLabs/CRCcontracts/issues"
+  },
+  "homepage": "https://github.com/ByteBuildersLabs/CRCcontracts#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.13"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
