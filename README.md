@@ -13,16 +13,10 @@
 - You can see how It looks [here](https://github.com/ByteBuildersLabs/CRCclient)
 
 ### 📒 Contracts
-- Sepolia: 0x31474D08FA9Eefb50693e43729b52e1B8f01aA6E
+- Sepolia: 0x36c0B813EE02933627a20c7E34DF407E20E418f9
 - The ERC20 contract supports Staking for the coin
 
-### 📒 How to install
+### 📒 How to install and deploy
 - Use Infura to get your api key and deploy the contracts https://www.infura.io/
 - Get some ETH sepolia https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 - Chainlink documentation to get `ethUsdPriceFeedAddress` https://docs.chain.link/#
-
-### 📒 How to use
--
-
-### 📒 Improvements Ideas
--
