@@ -10,11 +10,10 @@ async function main() {
   // Desplegar el contrato con los parámetros del constructor
   const crcc = await CRCc.deploy(initialOwner, ethUsdPriceFeedAddress, usdToColonRate);
 
-  // Esperar a que la transacción de despliegue se mine
-  const receipt = await crcc.deployTransaction.wait();
+  // Esperar a que la transacción de despliegue se mine (compatible con ethers v6)
+  await crcc.waitForDeployment();
 
-  console.log("Costa Rica Colon Crypto deployed to:", crcc.address);
-  console.log("Transaction receipt:", receipt);
+  console.log("Costa Rica Colon Crypto deployed to:", crcc.target); // Use `crcc.target` in ethers v6 for contract address
 }
 
 main().catch((error) => {
